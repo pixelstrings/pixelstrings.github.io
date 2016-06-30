@@ -21,6 +21,7 @@ Like a typical transcoder, Pixel Strings works in a 3-part process.
 **Continue to next topic...**
 
 .. toctree::
+   :hidden:
    :maxdepth: 1
 
    1_upload_media

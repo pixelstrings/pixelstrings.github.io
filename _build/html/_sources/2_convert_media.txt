@@ -15,7 +15,7 @@
 **Continue to next topic...**
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    3_deliver
  
