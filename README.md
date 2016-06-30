@@ -9,7 +9,7 @@ Handy Commands for Git commit....
 =================================
 `cd to root dir`
 <br>
-`git add .`
+`git add -A`
 <br>
 `git commit`
 <br>
