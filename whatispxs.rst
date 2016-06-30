@@ -4,8 +4,8 @@ What is PixelStrings?
 **In short...**
 ---------------
 
-Pixel Strings will clean up, fix, and convert your video to create the best mezzanine master possible.
- 
+Pixel Strings will **clean up, fix, optimize, and convert** your video to create the best mezzanine master possible.
+
 Frame Mechanics Features:
 	* Broken pulldown fixes
 	* Motion Compensated Framerate conversions
