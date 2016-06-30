@@ -13,5 +13,5 @@
 
 
 
-
-**Continue to next topic...**
+**Continue to next topic...** `Billing 
+<billing.html>`_.

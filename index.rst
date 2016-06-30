@@ -11,6 +11,13 @@ About PixelStrings
 ------------------
 Pixel Strings brings together Cinnafilm's full line of GPU powered image processing technology and provides it to you via the cloud. Solve even the most challenging frame mechanics and image quality problems like conforming mixed frame rate input to a single frame rate output, removing broken cadence 3:2 pull down and mixed interlace/progressive material and removing video noise and film grain. Convert any frame rate to any frame rate with Cinnafilm's best-in-class motion compensation engine.
 
+Our goal is to create the best possible mezzanine master.
+
+.. note:: this is a note
+.. warning:: this is a warning
+
+
+
 Contents:
 
 .. toctree::
@@ -29,4 +36,6 @@ Indices and tables
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
+
+
 
