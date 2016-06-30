@@ -13,5 +13,4 @@
 
 
 
-**Continue to next topic...** `Billing 
-<billing.html>`_.
+**Continue to next topic...** :doc:`billing`

@@ -11,5 +11,4 @@
 
 
 
-**Continue to next topic...** `Convert Media 
-<2_convert_media.html>`_.
+**Continue to next topic...** :doc:`2_convert_media`

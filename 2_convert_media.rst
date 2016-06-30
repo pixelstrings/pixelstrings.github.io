@@ -23,5 +23,4 @@ Supported Output Media
 	* 59.94
 	* 60
 
-**Continue to next topic...** `Deliver 
-<3_deliver.html>`_.
+**Continue to next topic...** :doc:`3_deliver`
