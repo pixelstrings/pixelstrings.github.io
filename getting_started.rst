@@ -19,10 +19,3 @@ Like a typical transcoder, Pixel Strings works in a 3-part process.
 	* Deliver your output media back to a cloud service like AWS, or simply download the file locally. 
 
 **Continue to next topic...**
-
-.. toctree::
-   :hidden:
-   :maxdepth: 1
-
-   1_upload_media
- 

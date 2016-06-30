@@ -15,9 +15,3 @@
 
 
 **Continue to next topic...**
-
-.. toctree::
-   :maxdepth: 1
-
-   billing
-
