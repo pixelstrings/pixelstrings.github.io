@@ -8,6 +8,9 @@ Handy Commands for Sphinx....
 Handy Commands for Git commit....
 =================================
 `cd to root dir`
+<br>
 `git add .`
+<br>
 `git commit`
+<br>
 `git push`
