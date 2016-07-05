@@ -19,6 +19,7 @@ Contents:
    2_convert_media
    3_deliver
    billing
+   PxS_API
 
 
 IGNORE BELOW
