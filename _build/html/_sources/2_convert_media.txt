@@ -1,7 +1,11 @@
 2. Convert Media
 ================
 
-The convert media module is where the magic happens. There are a few steps you need to take before converting your file.
+The convert media module is where the magic happens. There are a few steps you need to take before converting your file. The firust of which is to decide which feature need to be used for your specific conversion. We have build out some common conversion templates, but you can also create your own template with user-selected features. 
+
+If you are confused about which features need to be used to complete a conversion, please visit our `Conversion Settings Guide <http://cinnafilm.com/support/tachyon-settings-guide/>`_ for more information. There is also further explaination of the specific features below.
+
+.. note:: The `Conversion Settings Guide <http://cinnafilm.com/support/tachyon-settings-guide/>`_ is specifically for Tachyon Settings. 
 
 Choose output template
 ----------------------
@@ -18,7 +22,7 @@ tktktktk
 Feature descriptions
 --------------------
 
-If you choose to create your own, below are descriptions of the tick box features:
+In creating your own template, you will have to choose your features from the list below:
 
 
 **Allow Telecine Removal** - Tachyon will automatically analyze every scene for a pattern which can be removed. 5:4 ratio telecine, 4:1 progressive pattern, repeated frames or others will be automatically identified and removed, releasing the 23.976 (or 25p) essence from the patterns surrounding it.
@@ -87,5 +91,7 @@ Supported Output Media
 	* 50
 	* 59.94
 	* 60
+
+.. note:: Some codec and framerate combinations are unsupported. 
 
 **Continue to next topic...** :doc:`3_deliver`

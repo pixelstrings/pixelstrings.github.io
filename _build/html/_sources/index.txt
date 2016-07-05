@@ -1,11 +1,6 @@
-.. Pixel Strings Documentation documentation master file, created by
-   sphinx-quickstart on Wed Jun 29 22:51:44 2016.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
 Pixel Strings documentation!
 ============================
-Here, we hope you find everything you need to understand and begin using the Pixel Strings service.
+Here, we hope you find everything you need to understand and begin using the Pixel Strings service. The documentation is short and concise, so we recommend you read it through.
 
 Contents:
 ---------

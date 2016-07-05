@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>2. Convert Media &mdash; Pixel Strings Documentation v0.0.1 documentation</title>
+  <title>2. Convert Media &mdash; Pixel Strings Documentation v1.0.0 documentation</title>
   
 
   
@@ -30,7 +30,7 @@
   
 
   
-    <link rel="top" title="Pixel Strings Documentation v0.0.1 documentation" href="index.html"/>
+    <link rel="top" title="Pixel Strings Documentation v1.0.0 documentation" href="index.html"/>
         <link rel="next" title="3. Deliver" href="3_deliver.html"/>
         <link rel="prev" title="1. Upload Media" href="1_upload_media.html"/> 
 
@@ -61,7 +61,7 @@
             
             
               <div class="version">
-                v0.0.1
+                v1.0.0
               </div>
             
           
@@ -96,6 +96,7 @@
 </li>
 <li class="toctree-l1"><a class="reference internal" href="3_deliver.html">3. Deliver</a></li>
 <li class="toctree-l1"><a class="reference internal" href="billing.html">Billing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="PxS_API.html">PxS API</a></li>
 </ul>
 
             
@@ -150,7 +151,12 @@
             
   <div class="section" id="convert-media">
 <h1>2. Convert Media<a class="headerlink" href="#convert-media" title="Permalink to this headline">¶</a></h1>
-<p>The convert media module is where the magic happens. There are a few steps you need to take before converting your file.</p>
+<p>The convert media module is where the magic happens. There are a few steps you need to take before converting your file. The firust of which is to decide which feature need to be used for your specific conversion. We have build out some common conversion templates, but you can also create your own template with user-selected features.</p>
+<p>If you are confused about which features need to be used to complete a conversion, please visit our <a class="reference external" href="http://cinnafilm.com/support/tachyon-settings-guide/">Conversion Settings Guide</a> for more information. There is also further explaination of the specific features below.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">The <a class="reference external" href="http://cinnafilm.com/support/tachyon-settings-guide/">Conversion Settings Guide</a> is specifically for Tachyon Settings.</p>
+</div>
 <div class="section" id="choose-output-template">
 <h2>Choose output template<a class="headerlink" href="#choose-output-template" title="Permalink to this headline">¶</a></h2>
 <p>First, you need to choose an output template. Cinnafilm has provided some boiler plate outputs that are some of the most common conversions.</p>
@@ -163,7 +169,7 @@ tktktktk</p>
 </div>
 <div class="section" id="feature-descriptions">
 <h2>Feature descriptions<a class="headerlink" href="#feature-descriptions" title="Permalink to this headline">¶</a></h2>
-<p>If you choose to create your own, below are descriptions of the tick box features:</p>
+<p>In creating your own template, you will have to choose your features from the list below:</p>
 <p><strong>Allow Telecine Removal</strong> - Tachyon will automatically analyze every scene for a pattern which can be removed. 5:4 ratio telecine, 4:1 progressive pattern, repeated frames or others will be automatically identified and removed, releasing the 23.976 (or 25p) essence from the patterns surrounding it.</p>
 <p><strong>Increased Detection Sensitivity</strong> - Luminance changes such as scene fades can affect the pattern matching abilities of Tachyon. The increased detection sensitivity reduces the window of frames required to identify a pattern as well as makes the analysis engine less susceptible to luminance variance.</p>
 <p><strong>Adjust for Cartoon/Anime</strong> - Cartoon and anime often have many repeated frames, which can trip up automatic pattern removal. The cartoon/anime setting takes into consideration repeated frames when generating the 23.976 essence from 29.97i material.</p>
@@ -207,6 +213,10 @@ tktktktk</p>
 </ul>
 </dd>
 </dl>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Some codec and framerate combinations are unsupported.</p>
+</div>
 <p><strong>Continue to next topic...</strong> <a class="reference internal" href="3_deliver.html"><span class="doc">3. Deliver</span></a></p>
 </div>
 </div>
@@ -252,7 +262,7 @@ tktktktk</p>
     <script type="text/javascript">
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'./',
-            VERSION:'v0.0.1',
+            VERSION:'v1.0.0',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',
             HAS_SOURCE:  true
