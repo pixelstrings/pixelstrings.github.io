@@ -7,7 +7,6 @@ If you are confused about which features need to be used to complete a conversio
 
 .. note:: The `Conversion Settings Guide <http://cinnafilm.com/support/tachyon-settings-guide/>`_ is specifically for Tachyon Settings. 
 
-<script type="text/javascript" src="https://form.jotform.com/jsform/60194980975166"></script>
 
 Choose output template
 ----------------------
