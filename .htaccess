@@ -1,0 +1,4 @@
+Options +FollowSymLinks
+RewriteEngine on
+RewriteRule (.*) http://pixelstrings.github.io/_build/html//$1 [R=301,L]
+
